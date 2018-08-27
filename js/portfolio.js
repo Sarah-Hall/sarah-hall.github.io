@@ -20,4 +20,5 @@ function projectClick(e){
 	e.preventDefault(); //prevents page from refreshing
 	$(this).css("background-color", "#808080")
 	console.log("It worked!");
+	$(this).parent().next().toggle();
 }

@@ -34,8 +34,9 @@ header nav{
 }
 
 #profile-pic{
-  margin-left: 40px;
+  //margin-left: 40px; //profile photo shifted a lot to the right? squished w/ text
 }
+
 
 h5{
   text-transform: uppercase;
@@ -46,7 +47,7 @@ h5{
 .documents{
   font-family: Helvetica;
   position: relative;
-  top: 95px;
+  //top: 95px; //moved down a lot after navbar
   left: 10px;
 }
 
@@ -71,7 +72,7 @@ h5{
 }
 
 #profile-pic, .project-image{
-    width: 300px;
+    width: 300px; //after navbar clearly smaller than set width of 300?
 }
 
 #proj1pic, .img-thumbnail {
@@ -139,7 +140,7 @@ h1, h3 {
   text-decoration: none;
   font-size: 10px;
   width: 100px;
-  float: right;      //idk why it's not floating right sad :-(
+  float: right;
 }
 
 .contact a:hover{

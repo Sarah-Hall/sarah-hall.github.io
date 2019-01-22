@@ -89,7 +89,12 @@ li {
 
 .storyboards img, .prototype img, .wireframes img {
   display: block;
-  width: 60%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.storyboardcontainer {
+  width: 85%;
   margin: 0 auto;
   padding: 5px;
 }
@@ -97,6 +102,11 @@ li {
 .prototype img, .wireframes img {
   width: 100%;
 }
+
+video{
+  width: 85%;
+}
+
 
 .label {
   display: block;
